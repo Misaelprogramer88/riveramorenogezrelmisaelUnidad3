@@ -1,0 +1,20 @@
+{
+  "name": "pos-inventory-quotes-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de Gestión de Inventario y Cotizaciones de Terminales Punto de Venta (Node.js + Express + React + Vite)",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c blue,magenta \"npm run dev --workspace=backend\" \"npm run dev --workspace=frontend\"",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "test": "npm test --workspace=backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

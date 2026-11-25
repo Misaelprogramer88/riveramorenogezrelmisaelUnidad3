@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-001",
+      "nombre": "Gezrel Misael Rivera",
+      "email": "admin@poscore.mx",
+      "passwordHash": "$2a$10$UX.isKlwf2/mw6cviY0FA.ZBLOnkXndJw3D1LN.VosHcQleG72q2G",
+      "role": "ADMIN",
+      "departamento": "Dirección de Operaciones POS",
+      "createdAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "usr-vend-002",
+      "nombre": "Laura Méndez Torres",
+      "email": "vendedor@poscore.mx",
+      "passwordHash": "$2a$10$Y5E7lgzT4SbYDKG4.KZQnupGZYj4B6.EGu2Y/YPGESeOiJeTv.AlS",
+      "role": "VENDEDOR",
+      "departamento": "Ventas Corporativas",
+      "createdAt": "2026-11-24T23:51:52.604Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "pos-7caf2a34",
+      "sku": "SUN-P2PRO-4G",
+      "nombre": "Terminal SmartPOS Sunmi P2 Pro",
+      "modelo": "P2 Pro NFC + 4G",
+      "marca": "SUNMI",
+      "categoria": "Terminal Móvil Android",
+      "precioMxn": 7150,
+      "stock": 11,
+      "estado": "DISPONIBLE",
+      "descripcion": "Terminal móvil Android con lector EMV&#x2F;NFC, impresora Seiko integrada y cámara 2D.",
+      "createdAt": "2026-11-25T00:49:27.092Z",
+      "updatedAt": "2026-11-25T00:49:27.092Z"
+    },
+    {
+      "id": "pos-001",
+      "sku": "PAX-A920PRO",
+      "nombre": "Terminal Inteligente PAX A920 Pro",
+      "modelo": "A920 Pro 4G + WiFi",
+      "marca": "PAX Technology",
+      "categoria": "Terminal Móvil Android",
+      "precioMxn": 6850,
+      "stock": 24,
+      "estado": "DISPONIBLE",
+      "descripcion": "Terminal POS Android 10 con pantalla táctil HD 5.5\", lector contactless NFC, chip EMV, cámara escáner 2D e impresora térmica integrada.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "pos-002",
+      "sku": "ING-MOVE5000",
+      "nombre": "Ingenico Move/5000 Inalámbrica",
+      "modelo": "Move/5000 Dual-SIM",
+      "marca": "Ingenico",
+      "categoria": "Terminal Inalámbrica",
+      "precioMxn": 7490,
+      "stock": 15,
+      "estado": "DISPONIBLE",
+      "descripcion": "Terminal bancaria portátil certificada PCI PTS v5 con conectividad 4G, WiFi y Bluetooth para restaurantes y comercios móviles.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "pos-003",
+      "sku": "VER-V240M",
+      "nombre": "Verifone V240m Plus",
+      "modelo": "V240m 3G/4G/WiFi",
+      "marca": "Verifone",
+      "categoria": "Terminal Inalámbrica",
+      "precioMxn": 6290,
+      "stock": 4,
+      "estado": "STOCK_BAJO",
+      "descripcion": "Dispositivo compacto de alto rendimiento con pantalla a color de 3.5\", batería de larga duración y soporte Apple Pay / Google Pay.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "pos-004",
+      "sku": "SUN-T2S-DUAL",
+      "nombre": "Sunmi T2s Dual Screen Desktop POS",
+      "modelo": "T2s 15.6\" + 10.1\"",
+      "marca": "SUNMI",
+      "categoria": "Punto de Venta Fijo",
+      "precioMxn": 14950,
+      "stock": 9,
+      "estado": "DISPONIBLE",
+      "descripcion": "Estación de cobro de mostrador con doble pantalla táctil, impresora Seiko de 80mm integrada y procesador Octa-Core.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "pos-005",
+      "sku": "NEW-N910PRO",
+      "nombre": "Newland N910 Pro SmartPOS",
+      "modelo": "N910 Pro EMV",
+      "marca": "Newland",
+      "categoria": "Terminal Móvil Android",
+      "precioMxn": 5890,
+      "stock": 18,
+      "estado": "DISPONIBLE",
+      "descripcion": "SmartPOS ligero con Android 11, lectura ultrarrápida de QR/NFC y cifrado punto a punto P2PE.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    },
+    {
+      "id": "pos-006",
+      "sku": "ACC-DOCK-A920",
+      "nombre": "Base de Carga Multipuerto L920",
+      "modelo": "L920 Charging Base",
+      "marca": "PAX Technology",
+      "categoria": "Accesorio POS",
+      "precioMxn": 1350,
+      "stock": 3,
+      "estado": "STOCK_BAJO",
+      "descripcion": "Estación de carga de escritorio con puerto Ethernet RJ45 y USB-C para terminales serie A920.",
+      "createdAt": "2026-11-24T23:51:52.604Z",
+      "updatedAt": "2026-11-24T23:51:52.604Z"
+    }
+  ],
+  "quotes": [
+    {
+      "id": "cot-001",
+      "folio": "COT-2026-0001",
+      "cliente": "Carlos Alberto Domínguez",
+      "empresa": "Grupo Gastronómico Pacífico S.A.",
+      "emailCliente": "compras@grupopacifico.mx",
+      "items": [
+        {
+          "productId": "pos-001",
+          "sku": "PAX-A920PRO",
+          "nombre": "Terminal Inteligente PAX A920 Pro",
+          "cantidad": 6,
+          "precioUnitarioMxn": 6850,
+          "subtotalMxn": 41100
+        },
+        {
+          "productId": "pos-006",
+          "sku": "ACC-DOCK-A920",
+          "nombre": "Base de Carga Multipuerto L920",
+          "cantidad": 6,
+          "precioUnitarioMxn": 1350,
+          "subtotalMxn": 8100
+        }
+      ],
+      "subtotalMxn": 49200,
+      "ivaMxn": 7872,
+      "totalMxn": 57072,
+      "tipoCambioUsd": 19.85,
+      "totalUsd": 2875.16,
+      "estado": "ENVIADA",
+      "notas": "Incluye configuración inicial de llaves bancarias y capacitación remota.",
+      "createdBy": "Gezrel Misael Rivera",
+      "createdAt": "2026-11-24T23:51:52.604Z"
+    }
+  ]
+}

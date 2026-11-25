@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+backend/.env
+frontend/.env
+backend/data/test-db*.json
+coverage/
+*.log
+.DS_Store
